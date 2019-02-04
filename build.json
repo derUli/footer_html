@@ -1,9 +1,9 @@
 {
 	"id": "footer_html",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Output HTML Code in the frontend_footer Hook",
 	"categories": [
 		"design"
 	],
-	"compatible_from": "2018.2"
+	"compatible_from": "2019.1.3"
 }

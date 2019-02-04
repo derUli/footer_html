@@ -13,7 +13,7 @@ echo ModuleHelper::buildMethodCallForm ( "FooterHtml", "save" );
 		data-mimetype="text/html"><?php esc(Settings::get("footer_html"));?></textarea>
 </p>
 <p>
-	<button type="submit" class="btn btn-primary"><?php translate("save");?></button>
+	<button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> <?php translate("save");?></button>
 </p>
 <?php csrf_token_html();?>
 <?php echo ModuleHelper::endForm();?>
