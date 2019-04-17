@@ -17,3 +17,7 @@ echo ModuleHelper::buildMethodCallForm ( "FooterHtml", "save" );
 </p>
 <?php csrf_token_html();?>
 <?php echo ModuleHelper::endForm();?>
+
+<?php
+BackendHelper::enqueueEditorScripts();
+combinedScriptHtml();
